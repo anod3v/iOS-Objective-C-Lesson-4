@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *surname;
 @property (strong, nonatomic) NSNumber *age;
+@property (strong, nonatomic) NSString *fullName;
 
 @end
 
