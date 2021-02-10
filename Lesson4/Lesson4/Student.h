@@ -8,12 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@class Student;
+NS_ASSUME_NONNULL_BEGIN
 
 @interface Student : NSObject
+- (instancetype)initWithName:(NSString *)name
+                     surname:(NSString *)surname
+                         age:(NSNumber *)age;
 
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *surname;
 @property (strong, nonatomic) NSNumber *age;
 
 @end
+
+NS_ASSUME_NONNULL_END

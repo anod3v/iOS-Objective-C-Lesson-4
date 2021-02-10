@@ -16,11 +16,17 @@
     
     self = [super init];
     if (self) {
-        _name = name;
-        _surname = surname;
-        _age = age;
+        self.name = name;
+        self.surname = surname;
+        self.age = age;
     }
     return self;
 }
+
+- (NSString *)fullName {
+    return [self.name stringByAppendingString:self.surname];
+}
+
+
 @end
 
