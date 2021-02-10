@@ -5,8 +5,9 @@
 //  Created by Andrey on 10/02/2021.
 //
 
-#ifndef Student_h
-#define Student_h
+#import <Foundation/Foundation.h>
+
+@interface Student : NSObject
 
 
-#endif /* Student_h */
+@end
