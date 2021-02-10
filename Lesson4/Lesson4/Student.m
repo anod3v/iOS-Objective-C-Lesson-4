@@ -27,6 +27,12 @@
     return [self.name stringByAppendingString:self.surname];
 }
 
+- (NSString*) description {
+//    NSLog(@"%@, is a great student", self.fullName);
+    return [self.fullName stringByAppendingString:self.age];
+    [super description];
+}
+
 
 @end
 
