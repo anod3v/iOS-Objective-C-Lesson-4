@@ -33,13 +33,13 @@
     return self.initialAge;
 }
 
-//-(void)setName: (NSNumber *) age {
-//    _age = self.initialAge;
-//}
+- (void) addOneYearToAge {
+    NSNumber* step = @1;
+    self.initialAge = [NSNumber numberWithFloat:([self.initialAge floatValue] + [step floatValue])];
+}
 
 - (NSString*) description {
     [super description];
-//    NSLog(@"%@, is a great student", self.fullName);
     NSString* string = [self.age stringValue];
     return [self.fullName stringByAppendingString:string];
 }

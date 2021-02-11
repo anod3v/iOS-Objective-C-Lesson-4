@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithName:(NSString *)name
                      surname:(NSString *)surname
                          age:(NSNumber *)age;
+- (void) addOneYearToAge;
 
 @end
 

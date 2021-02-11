@@ -21,7 +21,9 @@
         NSLog(@"Student: \n name %@, \n surname %@, \n age %@, \n fullName %@", peter.name, peter.surname, peter.age, peter.fullName);
     NSLog(@"%@, is a great student", [peter description]);
     peter.age = @37;
-    NSLog(@"%@, is a great student", [peter description]);
+    NSLog(@"%@, is a great student, but the line above did not add anything to his age", [peter description]);
+    [peter addOneYearToAge];
+    NSLog(@"%@, coz now, he's got one year older", [peter description]);
 }
 
 
