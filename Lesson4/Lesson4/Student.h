@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
                      surname:(NSString *)surname
                          age:(NSNumber *)age;
 
-- (void) description;
+//- (void) description;
 
 @end
 

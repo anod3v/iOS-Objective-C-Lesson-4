@@ -28,9 +28,10 @@
 }
 
 - (NSString*) description {
-//    NSLog(@"%@, is a great student", self.fullName);
-    return [self.fullName stringByAppendingString:self.age];
     [super description];
+//    NSLog(@"%@, is a great student", self.fullName);
+    NSString* string = [self.age stringValue];
+    return [self.fullName stringByAppendingString:string];
 }
 
 
