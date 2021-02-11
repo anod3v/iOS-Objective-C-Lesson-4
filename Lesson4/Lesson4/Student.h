@@ -16,12 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *surname;
 @property (strong, nonatomic) NSNumber *age;
 @property (strong, nonatomic) NSString *fullName;
+@property (strong, nonatomic) NSNumber *initialAge;
 
 - (instancetype)initWithName:(NSString *)name
                      surname:(NSString *)surname
                          age:(NSNumber *)age;
-
-//- (void) description;
 
 @end
 

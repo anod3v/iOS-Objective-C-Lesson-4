@@ -18,8 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     Student* peter = [[Student alloc] initWithName:@"Peter" surname:@"Griffin" age: @36 ];
-//    NSLog(@"Student: \n name %@, \n surname %@, \n age %@, \n fullName %@", peter.name, peter.surname, peter.age, peter.fullName);
-        NSLog(@"%@, is a great student", [peter description]);
+        NSLog(@"Student: \n name %@, \n surname %@, \n age %@, \n fullName %@", peter.name, peter.surname, peter.age, peter.fullName);
+    NSLog(@"%@, is a great student", [peter description]);
+    peter.age = @37;
+    NSLog(@"%@, is a great student", [peter description]);
 }
 
 
